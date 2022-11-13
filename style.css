@@ -169,13 +169,12 @@ p {
 
 #ender {
     margin-top: 12vh;
-    margin-bottom: 20vh;
+    margin-bottom: 13vh;
     font-family: "Junior Cat";
     color: black;
     font-size: 4vh;
     text-align: center;
     letter-spacing: 0.2vw;
-
 }
 
 #ender-link {
@@ -206,4 +205,12 @@ p {
 
 .contact-link-end:link {
     font-size: 2.7vh;
+}
+
+#box-for-contact {
+    padding-top: 5vh;
+    padding-bottom: 2vh;
+    border-style: outset;
+    border-color: #1a016e;
+    border-width: 0.5vh;
 }
