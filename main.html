@@ -15,13 +15,16 @@
 
     <body>
         <div id="head">
-            <h1>Rose Raven Bishop</h1>
-            <h2>Python3 ~ HTML5 ~ CSS ~ JavaScript ~ C++</h2>
-            <h3 class="contact">RR6 Dundalk, Ontario N0C1B0</h3>
-            <h3 class="contact">226 668 7455</h3>
-            <h3 class="contact">code.raqoon@gmail.com</h3>
+            <h1 id="name">Rose Raven Bishop</h1>
+            <h2 id="langs">Python ~ HTML ~ CSS ~ JavaScript ~ C++</h2>
+
+            <div class="contact-block">
+                <h3 class="contact">RR6 Dundalk, Ontario N0C1B0</h3>
+                <h3 class="contact">226 668 7455</h3>
+                <h3 class="contact">code.raqoon@gmail.com</h3>
+            </div>
             <a class="contact-link" href="https://github.com/BirdyBirdy97" target="_blank">GitHub</a>
-            <p></p>
+            <br>
             <a class="contact-link" href="https://www.linkedin.com/in/rose-bishop-506760242/" target="_blank">Linkedin</a>
         </div>
 
@@ -29,9 +32,9 @@
 <!----------------------------------------------------------------------- Main Content ----------------------------------------------------------------------->
 
         <div id="main-content">
-            <p id="greeting">I'm a self-taught Junior Developer looking to break into the industry with roughly 3 years total of programming experience,
-                an aptitude for learning, and a passion for puzzles. I have excellent interpersonal and communication skills, I work well 
-                alone and in a team, and I have experience in marketing, film development, and graphics design.</p>
+            <p id="greeting">I'm a self-taught Junior Developer looking to break into the industry with roughly three years total programming experience,
+                an aptitude for learning, and a passion for puzzles. Additionally, I have experience in marketing, film development, and graphics design and have won
+                competitions with my art.</p>
 
             <!-------------------------------------------------- Skills -------------------------------------------------->
 
@@ -40,29 +43,29 @@
             
             <h3 class="headings">Soft Skills</h3>
             <ul>
-                <li>English, Upper Intermediate French @ B-2/C-1 Level, Basic Nishnaabemowin</li>
-                <li>Speaking on the phone or through email</li>
-                <li>Self sufficient with ability to work in a team and take direction</li>
-                <li>Slow to become frustrated and can bounce between tasks to make progress</li>
-                <li>Excellent attention to detail, organization skills</li>
-                <li>Easily adaptable, laid back without being lackadasical</li>
+                <li>Languages - English, Intermediate French with bad grammar, Basic Nishnaabemowin (Ojibwe)</li>
+                <li>Communication -Speaking over the phone, through chats, and email</li>
+                <li>Group Skills - Self-directed or ability to take direction from others</li>
+                <li>Perserverance and Adaptability</li>
+                <li>Coping mechanisms and strategies for dealing with adverse events and people - ie. time crunches, frustration, damage control, and work-life balance</li>
+                <li>Stress Management - Laid back without being flippant</li>
                 <li>Resourceful - I always find a way</li>
             </ul>
 
             <h3 class="headings">Qualifications</h3>
             <ul>
-                <li>Building functional programs using external modules (eg Tkinter, Turtle) as well as homebrewed classes</li>
-                <li>Writing readable and clean code without excessive comments</li>
-                <li>Built websites for myself and friends, small games, and the beginnings of a specialized task list</li>
-                <li>Quick to learn, independantly or taught</li>
-                <li>~46wpm typing speed with 95% accuracy</li>
+                <li>Building functional programs using external modules like Tkinter, Turtle, JQuery as well as homebrewed classes</li>
+                <li>Writing readable, clean code without excess</li>
+                <li>Built personal websites</li>
+                <li>Programmed small games and am currently working on a specialized task list</li>
+                <li>Skilled at navigating forums and Google to find solutions</li>
             </ul>
 
             <!-------------------------------------------------- School -------------------------------------------------->
             <div class="education">
                 <h3 class="headings">Education</h3>
                 <h4 class="schools-xp">Online Certificates</h4>
-                <ul>
+                <ul id="certs-group">
                     <li class="certs">100 Days of Code (Angela Yu, AppBrewery on Udemy), 2022</li>
                     <li class="certs">HTML & CSS Crash Course (Kevin Powell on Scrimba), 2020</li>
                     <li class="certs">Learn JavaScript (Codecademy), 2019</li>
@@ -70,16 +73,17 @@
 
                 <h4 class="schools-xp">Trent University, Peterborough, ON</h4>
                 <p class="degree">BCS First Year, 2021-2022</p>
-                <p>Had to leave due to an emergency, I hope to return.</p>
+                <p class="elaborate">Had to leave due to an emergency, I plan to return.</p>
 
                 <h4 class="schools-xp">Grey Highlands Secondary, Flesherton, ON</h4>
                 <p class="degree">High School Diploma, 2016-2021</p>
-                <p>Graduated on Honour Role with an extra year of math and physics courses</p>
-                <p>Specialist High Skills Majour in Arts and Culture</p>
+                <p class="elaborate">Graduated in Honour Society with an extra year of math and physics courses<br>
+                    Specialist High Skills Major in Arts and Culture (marketing, film production, graphics design, photography, audio tech)</p>
 
                 <h4 class="schools-xp">Cégep de Jonquière, Jonquière, QC</h4>
                 <p class="degree">EXPLORE program, 2019</p>
-                <p>Completed the program at a B-2/C-1 fluency level and an average of 85%</p>
+                <p class="elaborate">Completed the EXPLORE one-month residency immersion program with instruction at a B-2/C-1 fluency level and an 
+                    average of 85% in the Saguenay region.</p>
             </div>
 
             <!-------------------------------------------------- Previous Employment -------------------------------------------------->
@@ -87,22 +91,22 @@
             <div class="jobs">
                 <h3 class="headings">Previous Employment</h3>
                 <h4 class="schools-xp">Dundalk Esso On The Run</h4>
-                <p class="degree">Gas Station Attendant, 2020-2021, 2022-present</p>
-                <p>Left for university and have since returned. Main duties include serving customers using a POS system and cash, ensuring there aren't
+                <p class="degree">Gas Station Attendant, 2020-present</p>
+                <p class="elaborate">Main duties include serving customers using a POS system and cash, ensuring there aren't
                     any drive-offs, keeping the shelves, cooler, smokes, and lotto stocked, keeping the store clean, and dealing with difficult situations 
                     (customers, fires, power-outages...)
                 </p>
 
                 <h4 class="schools-xp">Diabetes Canada</h4>
                 <p class="degree">Remote Call Centre Agent, 2022</p>
-                <p>Recieved cold-calls through a VOIP phone, asked if the person would like to donate items, then sorted their call depending on the
-                    answer and wrote any necessary notes in their file. Consistantly made a heafty bonus each month due to performance without any prior
+                <p class="elaborate">Recieved cold-calls through a VOIP phone, asked if the person would like to donate items, then sorted their call depending on the
+                    answer and wrote any necessary notes in their file. Consistently made a heafty bonus each month due to exceptional performance without any prior
                     call centre experience.
                 </p>
 
                 <h4 class="schools-xp">Starbucks at Trent</h4>
                 <p class="degree">Barista, 2021</p>
-                <p>Much the same as the Esso - taking orders, using POS system, cleaning the workspace. I also quickly learned the menu to make drinks
+                <p class="elaborate">Much the same as the Esso - taking orders, using POS system, cleaning the workspace. I also quickly learned the menu to make drinks
                     and food efficiently, kept ingredients and materials stocked, processed employee discounts, and accurately deviated from the recipes
                     when substitutions were requested, regardless of how complex.
                 </p>
@@ -113,16 +117,15 @@
     </body>
 
     <footer>
-        <h2 id="ender">The code for this website can be found <a id="ender-link" href="https://github.com/BirdyBirdy97/Working_Resume_2022" target="_blank">here</a> on my GitHub, as 
-            some of the features are not translating well to the PDF file. I look forward to hearing
+        <h2 id="closing-statement">The code for this website can be found <a id="closing-statement-link" href="https://github.com/BirdyBirdy97/Working_Resume_2022" target="_blank">here</a> on 
+            my GitHub, as some of the features are not translating well to the PDF file. I look forward to hearing
         back!</h3>
-        <div class="contact" id="box-for-contact">
-            <h3 class="contact-end">226 668 7455</h3>
-            <h3 class="contact-end">code.raqoon@gmail.com</h3>
+        <div class="contact-end" id="box-for-contact">
+            <h3 id="contact-end-to-change-margin">226 668 7455</h3>
+            <h3 id="contact-end-to-change-margin2">code.raqoon@gmail.com</h3>
             <a class="contact-link-end" href="https://github.com/BirdyBirdy97" target="_blank">GitHub</a>
-            <p></p>
+            <br>
             <a class="contact-link-end" href="https://www.linkedin.com/in/rose-bishop-506760242/" target="_blank">Linkedin</a>
-            <p></p>
         </div>
 
         <a class="back" href="#top">

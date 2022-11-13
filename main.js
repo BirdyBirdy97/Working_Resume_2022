@@ -8,9 +8,9 @@ google.charts.setOnLoadCallback(drawTable);
         data.addRows([
             ["Languages", "Python 3 ~ HTML5 ~ CSS ~ JavaScript ~ C++"],
             ["Software", "VSCode ~ PyCharm ~ Brackets ~ Git ~ Asana ~ MS Office ~ Adobe Creative Suite ~ Mixcraft 8 Pro Studio ~ Audacity"],
-            ["Online Resources", "GitHub ~ CodePen ~ Repl.it"],
+            ["Online Resources", "GitHub ~ CodePen ~ Repl.it ~ Weebly"],
             ["Concepts", "Object Oriented Programming ~ UX ~ UI ~ Procedural Programming"],
-            ["Platforms", "Kali Linux ~ Windows"],
+            ["Platforms", "Windows ~ Kali Linux"],
         ]);
 
         var cssClassNames = {
@@ -22,7 +22,7 @@ google.charts.setOnLoadCallback(drawTable);
 
         var style_options = {
             width: 2000,
-            height: 350,
+            height: 200,
             
             chart: {
                 title:"Hard Skills",

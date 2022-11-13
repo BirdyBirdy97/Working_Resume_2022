@@ -1,11 +1,17 @@
 /********************************** Base Setup **********************************/
 
 @font-face {
-    font-family: "Junior Cat";
-    src: url(junior-cat/Junior_CAT.ttf);
+    font-family: Masiku;
+    src: url(masiku/Masiku.ttf);
+}
+
+@font-face {
+    font-family: Hhenum;
+    src: url(hhenum/Hhenum-Regular.otf);
 }
 
 html {
+    font-family: "Hhenum";
     margin-top: 8vh;
     margin-bottom: 10vh;
     margin-left: 10vw;
@@ -17,86 +23,86 @@ html {
 
 }
 
-h1 {
-    font-family: "Junior Cat";
-    font-size: 10vh;
-    letter-spacing: 0.4vw;
-    padding-bottom: 2vh;
-    margin-bottom: -0.005vh;
-    text-decoration: underline #1a016e;
-}
-
-h2 {
-    margin-top: -0.8vh;
-    margin-bottom: 6vh;
-    font-size: 3vh;
-    letter-spacing: 0.3vw;
-}
-
-a {
-    font-weight: bolder;
-}
-
-a:link {
-    color: black;
-    font-size: 2.1vh;
-}
-
-a:hover {
-    color: #d000db
-}
-
-a:active {
-    color: white;
-}
-
-a:visited {
-    color: #1a016e;
-}
-
-ul {
-    font-size: 2.3vh;
-    font-weight: bolder;
-    letter-spacing: 0.1vw;
-}
-
-li {
-    margin-bottom: 0.5vh;
-}
-
 /**************************************** Header/First Contact Info ****************************************/
 
 #head {
     text-align: center;
 }
 
+#name {
+    font-family: "Masiku";
+    font-size: 3vh;
+    letter-spacing: 0.4vw;
+    padding-bottom: 3vh;
+    margin-bottom: -0.005vh;
+    text-decoration: underline #1a016e;
+}
+
+#langs {
+    margin-top: -0.8vh;
+    margin-bottom: 3vh;
+    font-size: 3vh;
+    letter-spacing: 0.3vw;
+}
+
 .contact {
+    font-family: sans-serif;
     margin-top: -1.5vh;
     letter-spacing: 0.07vw;
     text-align: center;
+    font-size: 1.3vh;
 }
 
-.headings {
-    margin-left: 5vw;
-    font-family: "Junior Cat";
-    font-size: 4.4vh;
-    letter-spacing: 0.25vw;
-    text-decoration: underline #1a016e;
-    margin-top: 11vh;
-    margin-bottom: 5vh;
+.contact-block {
+    margin-bottom: -1.5vh;
 }
+
+.contact-link {
+    letter-spacing: 0.15vw;
+    text-align: center;
+    font-size: 1.7vh;
+    font-weight: bold;
+}
+
+.contact-link:link {
+    color: black;
+}
+
+.contact-link:hover {
+    color: #d000db
+}
+
+.contact-link:active {
+    color: white;
+}
+
+.contact-link:visited {
+    color: #1a016e;
+}
+
+/************************************************************ Main Content ************************************************************/
 
 #greeting {
     text-align: justify;
-    margin-top: 10.5vh;
-    font-size: 2.6vh;
+    margin-top: 6vh;
+    font-size: 1.9vh;
     font-weight: bolder;
     letter-spacing: 0.13vw;
-    margin-bottom: 10vh;
+    margin-bottom: 6vh;
     margin-left: 0vw;
 }
 
-/*************************************** Chart ***************************************/
+/*************************************** Chart and Skills/Qualifications ***************************************/
+
+.headings {
+    margin-left: 5vw;
+    font-family: "Masiku";
+    font-size: 2vh;
+    letter-spacing: 0.25vw;
+    text-decoration: underline #1a016e;
+    margin-top: 6vh;
+    margin-bottom: 5vh;
+}
 
 #table_div {
     font-weight: bold;
@@ -108,7 +114,7 @@ li {
     background-color: transparent;
   }
   
-  .header-row-style {
+.header-row-style {
     background-color: rgb(62, 50, 241, 0.5);
     border-top-width: 0.2vh;
     border-top-style: solid;
@@ -117,47 +123,131 @@ li {
     border-bottom-width: 0.2vh;
     border-bottom-style: solid;
     margin-bottom: 0.5vh;
-  }
+}
+
+ul {
+    font-size: 1.6vh;
+    font-weight: bolder;
+    letter-spacing: 0.1vw;
+}
+
+li {
+    margin-bottom: 0.5vh;
+}
+
   
 /*************************************** Education Stuff***************************************/
 
 .schools-xp {
-    margin-top: 5vh;
-    margin-left: 19vw;
-    font-size: 2.7vh;
+    margin-top: -0.5vh;
+    margin-left: 9vw;
+    margin-bottom: 5vh;
+    font-size: 2.4vh;
     letter-spacing: 0.1vw;
 }
 
-.degree {
-    margin-top: -2vh;
-    font-size: 2.5vh;
-    margin-left: 19vw;
-
-}
-
-p {
-    margin-top: -1vh;
-    font-size: 2.3vh;
-    margin-left: 19vw;
+#certs-group {
+    margin-top: -5vh;
+    margin-bottom: 2vh;
 }
 
 .certs {
-    margin-left: 15.8vw;
+    margin-left: 9vw;
+    font-size: 1.6vh;
+}
+
+.degree {
+    margin-top: -5vh;
+    font-size: 2.4vh;
+    margin-left: 12vw;
+}
+
+.elaborate {
+    margin-top: -2.5vh;
+    font-size: 1.6vh;
+    letter-spacing: 0.1vw;
+    margin-left: 12vw;
 }
 
 /*************************************** Footer Stuff ***************************************/
 
-.back {
-    position: relative;
-    margin-top: 10vh;
-    font-family: "Junior Cat";
-    font-size: 3vh;
-    font-weight: bolder;
+/*************************** End Link Actions ***************************/
+
+#closing-statement {
+    margin-top: 7vh;
+    margin-bottom: 7vh;
+    font-family: "Masiku";
+    color: black;
+    font-size: 1.6vh;
+    text-align: center;
     letter-spacing: 0.2vw;
-    padding-top: 0.5vh;
-    padding-bottom: 0.5vh;
-    width: 18vw;
-    left: 14.96vw;
+}
+
+#closing-statement-link {
+    font-size: 2.4vh;
+    letter-spacing: 0.2vw;
+}
+
+#closing-statement-link:hover {
+    color: #d000db;
+}
+
+#closing-statement-link:active {
+    color: white;
+}
+
+#closing-statement-link:visited {
+    color: #1a016e
+}
+
+/*************************** End Contact ***************************/
+
+.contact-end {
+    font-family: sans-serif;
+    letter-spacing: 0.07vw;
+    text-align: center;
+    font-size: 1.7vh;
+}
+
+.contact-link-end {
+    font-family: "Hhenum";
+    margin-top: -1.5vh;
+    letter-spacing: 0.07vw;
+    text-align: center;
+    font-size: 3vh;
+}
+
+#contact-end-to-change-margin {
+    margin-bottom: -2.5vh;
+}
+
+#contact-end-to-change-margin2 {
+    margin-bottom: -0.15vh;
+}
+
+.contact-link-end:link {
+    color: black;
+}
+
+.contact-link-end:hover {
+    color: #d000db
+}
+
+.contact-link-end:active {
+    color: white;
+}
+
+.contact-link-end:visited {
+    color: #1a016e;
+}
+
+#box-for-contact {
+    padding-top: 0.25vh;
+    padding-bottom: 2vh;
+    border-style: outset;
+    border-color: #1a016e;
+    border-width: 0.5vh;
+    margin-bottom: 3vh;
 }
 
 /*************************** Back to Top btn***************************/
@@ -176,52 +266,15 @@ p {
     background-color: #d000db;
 }
 
-/*************************** End Link Actions ***************************/
-
-#ender {
-    margin-top: 12vh;
-    margin-bottom: 13vh;
-    font-family: "Junior Cat";
-    color: black;
-    font-size: 4vh;
-    text-align: center;
+.back {
+    position: relative;
+    margin-top: 9vh;
+    font-family: "Masiku";
+    font-size: 2vh;
+    font-weight: bolder;
     letter-spacing: 0.2vw;
-}
-
-#ender-link {
-    font-size: 4vh;
-    letter-spacing: 0.2vw;
-}
-
-#ender-link:hover {
-    color: #d000db;
-}
-
-#ender-link:active {
-    color: white;
-}
-
-#ender-link:visited {
-    color: #1a016e
-}
-
-/*************************** End Contact ***************************/
-
-.contact-end {
-    margin-top: -1.5vh;
-    letter-spacing: 0.07vw;
-    text-align: center;
-    font-size: 2.7vh;
-}
-
-.contact-link-end:link {
-    font-size: 2.7vh;
-}
-
-#box-for-contact {
-    padding-top: 5vh;
-    padding-bottom: 2vh;
-    border-style: outset;
-    border-color: #1a016e;
-    border-width: 0.5vh;
+    padding-top: 0.5vh;
+    padding-bottom: 0.5vh;
+    width: 18vw;
+    left: 14.6vw;
 }
