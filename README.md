@@ -13,5 +13,7 @@ be using this. A PDF copy of the webview has been uploaded to my Linkedin.
 If you have any suggestions as to how I could improve my resume, please let me know! I'm currently trying to get my first job in 
 the programming industry and would appreciate any pointers.
 
-The [Junior Cat](https://www.1001fonts.com/junior-cat-font.html) font was made by Peter Wiegel and uploaded to 1001fonts.com under 
+The [Hhenum](https://www.1001fonts.com/hhenum-font.html) font was made by T. Christopher White and uploaded to 1001fonts.com under 
+the SIL Open Font License (OFL).
+The [Masiku](https://www.1001fonts.com/masiku-font.html) font was made by Khurasan and uploaded to 1001fonts.com under 
 the SIL Open Font License (OFL).
