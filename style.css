@@ -6,18 +6,20 @@
 }
 
 html {
-    margin-top: 5vh;
+    margin-top: 8vh;
     margin-bottom: 10vh;
     margin-left: 10vw;
     margin-right: 10vw;
+
     /* background-image: radial-gradient(#a319b0,#5833d4); */
-    background-image: radial-gradient(#a63fb0, #7050d9);
+    /* background-image: radial-gradient(#a63fb0, #7050d9); */
+    background-image: radial-gradient(#a559ad, #8068ce);
 
 }
 
 h1 {
     font-family: "Junior Cat";
-    font-size: 9vh;
+    font-size: 10vh;
     letter-spacing: 0.4vw;
     padding-bottom: 2vh;
     margin-bottom: -0.005vh;
@@ -45,6 +47,16 @@ a:visited {
     color: #1a016e;
 }
 
+ul {
+    font-size: 2.3vh;
+    font-weight: bolder;
+    letter-spacing: 0.1vw;
+}
+
+li {
+    margin-bottom: 0.5vh;
+}
+
 /**************************************** Header/First Contact Info ****************************************/
 
 #head {
@@ -63,19 +75,63 @@ a:visited {
     font-size: 4.4vh;
     letter-spacing: 0.25vw;
     text-decoration: underline #1a016e;
+    margin-top: 11vh;
+    margin-bottom: 5vh;
 }
 
 #greeting {
     text-align: justify;
     margin-top: 10.5vh;
-    font-size: 2.3vh;
+    font-size: 2.6vh;
     font-weight: bolder;
     letter-spacing: 0.13vw;
-    margin-bottom: 6vh;
+    margin-bottom: 10vh;
+    margin-left: 0vw;
 }
+
+/*************************************** Chart ***************************************/
 
 #table_div {
     font-weight: bold;
+    background-color: rgba(0, 0, 0, 0.15);
+    padding: 1.1vh;
+  }
+  
+.container table {
+    background-color: transparent;
+  }
+  
+  .header-row-style {
+    background-color: rgb(62, 50, 241, 0.5);
+    border-top-width: 0.2vh;
+    border-top-style: solid;
+    border-top-color: #000000;
+    border-bottom-color: #000000;
+    border-bottom-width: 0.2vh;
+    border-bottom-style: solid;
+    margin-bottom: 0.5vh;
+  }
+  
+/*************************************** Education Stuff***************************************/
+
+.schools-xp {
+    margin-top: 5vh;
+    margin-left: 19vw;
+    font-size: 2.7vh;
+    letter-spacing: 0.1vw;
+}
+
+.degree {
+    margin-top: -2vh;
+    font-size: 2.5vh;
+    margin-left: 19vw;
+
+}
+
+p {
+    margin-top: -1vh;
+    font-size: 2.3vh;
+    margin-left: 19vw;
 }
 
 /*************************************** Footer Stuff ***************************************/
@@ -93,6 +149,8 @@ a:visited {
     left: 14.96vw;
 }
 
+/*************************** Back to Top btn***************************/
+
 #btn {
     background-color: #c87ceb;
     box-shadow: 0 0.4vw 0.7vh 0 #1a016e;
@@ -107,16 +165,22 @@ a:visited {
     background-color: #d000db;
 }
 
+/*************************** End Link Actions ***************************/
+
 #ender {
-    margin-top: 8vh;
-    margin-bottom: 8vh;
+    margin-top: 12vh;
+    margin-bottom: 20vh;
+    font-family: "Junior Cat";
     color: black;
-    font-size: 3vh;
+    font-size: 4vh;
     text-align: center;
+    letter-spacing: 0.2vw;
+
 }
 
 #ender-link {
-    font-size: 3vh;
+    font-size: 4vh;
+    letter-spacing: 0.2vw;
 }
 
 #ender-link:hover {
@@ -129,4 +193,17 @@ a:visited {
 
 #ender-link:visited {
     color: #1a016e
+}
+
+/*************************** End Contact ***************************/
+
+.contact-end {
+    margin-top: -1.5vh;
+    letter-spacing: 0.07vw;
+    text-align: center;
+    font-size: 2.7vh;
+}
+
+.contact-link-end:link {
+    font-size: 2.7vh;
 }

@@ -13,13 +13,23 @@ google.charts.setOnLoadCallback(drawTable);
             ["Platforms", "Kali Linux, Windows"],
         ]);
 
+        var cssClassNames = {
+            headerRow: 'header-row-style',
+            tableRow: 'row-style',
+            oddTableRow: 'odd-row-style',
+            headerCell: 'header-cell-style'
+          };
+
         var style_options = {
             width: 2000,
             height: 350,
+            
             chart: {
                 title:"Hard Skills",
                 subtitle: "Hard Skills pertaining to the programming, marketing, and creative industries.",
             },
+            allowHtml: true,
+            cssClassNames: cssClassNames
         }
     
         var table = new google.visualization.Table(document.getElementById('table_div'));
