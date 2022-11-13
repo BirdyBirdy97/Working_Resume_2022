@@ -6,11 +6,11 @@ google.charts.setOnLoadCallback(drawTable);
         data.addColumn('string', '');
         data.addColumn('string', 'Experience');
         data.addRows([
-            ["Languages", "Python 3, HTML5, CSS, JavaScript, C++"],
-            ["Software", "VSCode, PyCharm, Brackets, Git, MS Office, Adobe Creative Suite, Mixcraft 8 Pro Studio, Audacity"],
-            ["Online Resources", "GitHub, CodePen, Repl.it"],
-            ["Concepts", "Object Oriented Programming, UX, UI, Procedural Programming"],
-            ["Platforms", "Kali Linux, Windows"],
+            ["Languages", "Python 3 ~ HTML5 ~ CSS ~ JavaScript ~ C++"],
+            ["Software", "VSCode ~ PyCharm ~ Brackets ~ Git ~ Asana ~ MS Office ~ Adobe Creative Suite ~ Mixcraft 8 Pro Studio ~ Audacity"],
+            ["Online Resources", "GitHub ~ CodePen ~ Repl.it"],
+            ["Concepts", "Object Oriented Programming ~ UX ~ UI ~ Procedural Programming"],
+            ["Platforms", "Kali Linux ~ Windows"],
         ]);
 
         var cssClassNames = {
