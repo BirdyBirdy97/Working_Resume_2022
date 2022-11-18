@@ -10,7 +10,7 @@ google.charts.setOnLoadCallback(drawTable);
             ["Software", "VSCode ~ PyCharm ~ Brackets ~ Git ~ Asana ~ MS Office ~ Adobe Creative Suite ~ Mixcraft 8 Pro Studio ~ Audacity"],
             ["Online Resources", "GitHub ~ CodePen ~ Repl.it ~ Weebly"],
             ["Concepts", "Object Oriented Programming ~ UX ~ UI ~ Procedural Programming"],
-            ["Platforms", "Windows ~ Kali Linux"],
+            ["Platforms", "Windows ~ Ubuntu"],
         ]);
 
         var cssClassNames = {
